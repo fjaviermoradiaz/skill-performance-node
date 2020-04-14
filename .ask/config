@@ -1,0 +1,146 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.0ef8d8a9-0348-4043-9a47-4b886efeba64",
+      "was_cloned": false,
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "90b1d8552d7b0e5fa733de6d6296e8bf"
+        },
+        "interactionModel": {
+          "de-DE": {
+            "eTag": "db3f3be3ad2d6cba9481ea93cdd47792"
+          },
+          "en-AU": {
+            "eTag": "0e87f5809ae3b3268be3252bab86152e"
+          },
+          "en-GB": {
+            "eTag": "7538dc915c7891fcb24fb24de979cee4"
+          },
+          "en-US": {
+            "eTag": "79712ed632a716cb80fbb071dd8cf910"
+          },
+          "en-CA": {
+            "eTag": "5c60b3b981a1787015adbe94e1bb040b"
+          },
+          "es-ES": {
+            "eTag": "b7d43672bf3a1abdb3eae6deb66b6a3f"
+          },
+          "hi-IN": {
+            "eTag": "ce53d672bc13036ad133ca8f0a2c2e26"
+          },
+          "en-IN": {
+            "eTag": "998ce3c06062ed102d4a7bebe2c50d3d"
+          },
+          "es-US": {
+            "eTag": "8f404f51f0ac201c4eec81542136555d"
+          },
+          "fr-FR": {
+            "eTag": "71b481004c56e0192170c106c21054af"
+          },
+          "ja-JP": {
+            "eTag": "e48e262642848177378a2d4a2b1bc7b8"
+          },
+          "es-MX": {
+            "eTag": "35b984aa0de82ae5616a92a793c7e1e1"
+          },
+          "it-IT": {
+            "eTag": "869dca5e13f2a0beb6158b58daa8ef3f"
+          },
+          "fr-CA": {
+            "eTag": "379548adf554d18015ad8e9d34c9105a"
+          },
+          "pt-BR": {
+            "eTag": "aac99e7d6e9d2198dfcc77ad9c6b3110"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:eu-west-1:844264943344:function:ask-custom-performance-node-default",
+            "awsRegion": "eu-west-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-custom-performance-node-default",
+            "handler": "index.handler",
+            "revisionId": "c9fda044-1c8c-4b56-b86c-d74fa666fc88",
+            "runtime": "nodejs10.x"
+          }
+        ]
+      }
+    },
+    "jvimora": {
+      "skill_id": "amzn1.ask.skill.819f4b0e-5214-437b-b893-2c4ce49fa0d4",
+      "was_cloned": false,
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "57ebb7c8cbbf98decd18fca6d815a0e2"
+        },
+        "interactionModel": {
+          "de-DE": {
+            "eTag": "4f4245bdb6438ee08889d83ecada8880"
+          },
+          "en-AU": {
+            "eTag": "454dd2175255fe4845e003a9cd929828"
+          },
+          "en-GB": {
+            "eTag": "a1110fedfc3ba8fc8fc193117b044bff"
+          },
+          "en-US": {
+            "eTag": "5ced653ad2a7f29f838583d679255302"
+          },
+          "en-CA": {
+            "eTag": "45e5f818c84b29ebb45294a9b151fe81"
+          },
+          "es-ES": {
+            "eTag": "48beaa564cfb62a05edab266d0ab1f31"
+          },
+          "en-IN": {
+            "eTag": "24b648adc921410587f4a982e6a6b373"
+          },
+          "fr-CA": {
+            "eTag": "7330f82743119388d707460370c857ea"
+          },
+          "hi-IN": {
+            "eTag": "a3417be8bddc517842f48eb70d92fcf7"
+          },
+          "ja-JP": {
+            "eTag": "f5348af0a3cc2af421a452f985e5c031"
+          },
+          "es-MX": {
+            "eTag": "bf32c5f9f963263e4529279e642004a3"
+          },
+          "fr-FR": {
+            "eTag": "80eb461bd18095cfa6a79255fd451153"
+          },
+          "pt-BR": {
+            "eTag": "07ef503fb44938d8411a6c6ae433f1a8"
+          },
+          "es-US": {
+            "eTag": "29f80d42b55aacd865d4da7af8f92bce"
+          },
+          "it-IT": {
+            "eTag": "8eed381cefe7e086f917359389cdf4f6"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:eu-west-1:273051424977:function:ask-custom-performance-node-default",
+            "awsRegion": "eu-west-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-custom-performance-node-default",
+            "handler": "index.handler",
+            "revisionId": "5d940a35-f766-4c9b-a5ec-b47fde858dc1",
+            "runtime": "nodejs10.x"
+          }
+        ]
+      }
+    }
+  }
+}
